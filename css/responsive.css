@@ -1,1 +1,31 @@
-/* Soluzione qui */
+@media screen and (min-width: 768px) {
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .recipe-origin {
+        display: contents;
+    }
+
+    .recipe-title {
+        width: 100%;
+    }
+
+    .btn {
+        width: 70%;
+        padding: 15px 15px;
+    }
+
+    .ads {
+        display: contents;
+    }
+}
