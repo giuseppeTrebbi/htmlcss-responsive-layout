@@ -16,8 +16,8 @@
         display: contents;
     }
 
-    .recipe-title {
-        width: 100%;
+    .recipe-name {
+        font-size: 2rem;
     }
 
     .btn {
@@ -26,6 +26,38 @@
     }
 
     .ads {
+        display: contents;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .recipe-name {
+        font-size: 2.5rem;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 100%;
+    }
+
+    .recipe-info {
+        width: 40%;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-networks .label {
         display: contents;
     }
 }
